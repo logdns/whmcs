@@ -9,5 +9,8 @@ QQ：270473446
 
 Whmcs IPMI模块
 =====
+
 登陆whmcs后台》设置》产品/服务》相关产品》自定义字段》分别添加ipmiip/ipmiuser/ipmipass 类型为文本框的字段
-路径modules/servers/ipmi/ipmi.php
+
+
+ 路径modules/servers/ipmi/ipmi.php
