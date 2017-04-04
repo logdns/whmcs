@@ -8,7 +8,7 @@ $ipmipass = $params['customfields']["ipmipass"];
 $cmd="ipmitool -H $ipmiip -U $ipmiuser -P $ipmipass -I lanplus power status";
 $power=substr(exec($cmd),17);
 $p="https://$ipmiip/";
-$code = "机器电源状态: $power  用户名:$ipmiuser 密码:$ipmipass <a href=\"$p\" target=\"_blank\" style=\"color:#cc0000\">登陆到IPMI页面</a>";
+$code = "Machine Power State: $power  Username:$ipmiuser Password:$ipmipass <a href=\"$p\" target=\"_blank\" style=\"color:#cc0000\">Log in to the IPMI page</a>";
 return $code;
 }
 function ipmi_AdminLink($params) {
@@ -58,19 +58,19 @@ return $return;
 }
 function ipmi_ClientAreaCustomButtonArray() {
 $buttonarray = array(
-"重启RESET" => "reboot",
-"电源重置POWER_CYCLE" => "cycle",
-"电源关闭POWER_OFF" => "off",
-"电源开启POWER_ON" => "on",
+"Restart RESET" => "reboot",
+"Powerreset POWER_CYCLE" => "cycle",
+"Poweroff POWER_OFF" => "off",
+"Poweron POWER_ON" => "on",
 );
 return $buttonarray;
 }
 function ipmi_AdminCustomButtonArray() {
 $buttonarray = array(
-"重启RESET" => "reboot",
-"电源重置POWER_CYCLE" => "cycle",
-"电源关闭POWER_OFF" => "off",
-"电源开启POWER_ON" => "on",
+"Restart RESET" => "reboot",
+"Powerreset POWER_CYCLE" => "cycle",
+"Poweroff POWER_OFF" => "off",
+"Poweron POWER_ON" => "on",
 );
 return $buttonarray;
 }
