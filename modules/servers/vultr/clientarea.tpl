@@ -39,7 +39,7 @@
                 <input type="hidden" name="a" value="reboot">
                 <input style="height:50px;" type="image" src="./modules/servers/vultr/img/reboot.png" alt="Reboot">
               </div>
-              重启 </div>
+              Reboot </div>
           </form></td>
         <td style="width:67px;text-align:center;vertical-align:top;"><form method="post" action="clientarea.php?action=productdetails">
             <div style="margin:10px;" align="center">
@@ -49,7 +49,7 @@
                 <input type="hidden" name="a" value="start">
                 <input style="height:50px;" type="image" src="./modules/servers/vultr/img/poweron.png" alt="Power On">
               </div>
-              开机 </div>
+              Boot </div>
           </form></td>
         <td style="width:67px;text-align:center;vertical-align:top;"><form method="post" action="clientarea.php?action=productdetails">
             <div style="margin:10px;" align="center">
@@ -59,7 +59,7 @@
                 <input type="hidden" name="a" value="halt">
                 <input style="height:50px;" type="image" src="./modules/servers/vultr/img/poweroff.png" alt="Power Off">
               </div>
-              关机 </div>
+              Shut Down </div>
           </form></td>
         <td style="width:67px;text-align:center;vertical-align:top;"><form method="post" action="clientarea.php?action=productdetails">
             <div style="margin:10px;" align="center">
@@ -69,7 +69,7 @@
                 <input type="hidden" name="a" value="reinstall">
                 <input style="height:50px;" type="image" src="./modules/servers/vultr/img/reinstall.png" alt="Reinstall">
               </div>
-              重装系统 </div>
+              ReInstall the System </div>
           </form></td>
         <td style="width:67px;text-align:center;vertical-align:top;">
             <div style="margin:10px;" align="center">
